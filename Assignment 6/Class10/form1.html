@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>forms</h1> 
+        <form action="http://www.example.com" method="post">
+            <fieldset>
+    <input name="full name" type="text" placeholder="type your name"/> <br />
+    <input type="number" placeholder="type your cell number" /> <br/>
+    <input required type="password" placeholder="type your password" /> <br />
+    <input type="datetime-local" /> <br />
+    <input type="submit" />
+    <label for="yes">Yes</label>
+    <input name=""type="radio" >
+    <label for="no">No</label>
+    <input type="radio" >
+    <!-- drop down-->
+    <select multiple size="3"> 
+        <option disabled selected> select your city </option>
+        <option name="city" value="1"> Karachi</option>
+        <option selected name="city" value="2">Islamabad</option>
+    </select>
+    </fieldset>
+    <input type="file" name="image" accept="image/jpg, image/gif, image/png">
+    </form>
+</body>
+</html>
